@@ -23,7 +23,7 @@
 
 📎 rm -rf MBF
 
-📎 Running script
+# Running script
 
 📎 cd MBF
 
