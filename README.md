@@ -15,9 +15,9 @@
 
 📎 pkg install python2 && git
 
-📎 pip2 install requests mechanize
+📎 pip2 install requests && mechanize
 
-📎 pip2 install futures bs4
+📎 pip2 install futures && bs4
 
 📎 git clone https://github.com/Aang21/MBF
 
@@ -33,4 +33,4 @@
 
 => python2 Saskiya.py
 
-# ☆JATIBOGOR☆
+# ☆Jatibogor☆
