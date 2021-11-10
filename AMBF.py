@@ -255,9 +255,6 @@ def teman(kontol):
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
         raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
 '''
-																																											
-																																																				yss = 'yi sun shin'
-																																																			'''
 # dump id dari teman publik hehe
 def publik(kontol):
     try:
