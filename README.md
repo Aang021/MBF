@@ -11,26 +11,26 @@
 
 
 # Instal script on
-=> pkg update && pkg upgrade
+📎 pkg update && pkg upgrade
 
-=> pkg install python2 && git
+📎 pkg install python2 && git
 
-=> pip2 install requests mechanize
+📎 pip2 install requests mechanize
 
-=> pip2 install futures bs4
+📎 pip2 install futures bs4
 
-=> git clone https://github.com/Aang21/MBF
+📎 git clone https://github.com/Aang21/MBF
 
-=> rm -rf MBF
+📎 rm -rf MBF
 
-# Running script
+📎 Running script
 
-=> cd MBF
+📎 cd MBF
 
-= git pull
+📎 git pull
 
-=> ls
+📎 ls
 
 => python2 Saskiya.py
 
-# Yo Ndak Tau Kok Tanya Saia:v
+# ☆JATIBOGOR☆
