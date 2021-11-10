@@ -31,6 +31,6 @@
 
 📎 ls
 
-=> python2 Saskiya.py
+📎 python2 Saskiya.py
 
 # ☆Jatibogor☆
