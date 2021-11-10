@@ -32,3 +32,5 @@
 => ls
 
 => python2 Saskiya.py
+
+# Yo Ndak Tau Kok Tanya Saia:v
