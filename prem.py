@@ -157,7 +157,7 @@ def moch_yayan():
     print(' \033[0;97m[%s05%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mRandom ID Massal'%(H,N));time.sleep(0.03)
     print(' \033[0;97m[%s06%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mKomentar Postingan'%(H,N));time.sleep(0.03)
     print(' \033[0;97m[%s07%s] \033[0;96mNyolong \033[0;93mAkun \033[0;97mInstagram [%sNEW%s]'%(H,N,H,N));time.sleep(0.03)
-    print(' [%s08%s] \033[0;96mCek \033[0;97mDetector%(H,N));time.sleep(0.03)
+    print(' [%s08%s] \033[0;96mCheckpoin \033[0;97mDetedtor%(H,N));time.sleep(0.03)
     print(' [%s09%s] \033[0;96mSetting \033[0;97mUser Agent'%(H,N));time.sleep(0.03)
     print(' [%s10%s] \033[0;96mLihat \033[0;97mHasil \033[0;96mCrack \033[0;97mSaya'%(H,N));time.sleep(0.03)
     print(' [%s00%s] Keluar [%sAh Ngecrot%s]'%(K,N,K,N));time.sleep(0.03)
