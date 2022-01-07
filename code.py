@@ -1,6 +1,6 @@
-l#!/usr/bin/python3 
-#-*-coding:utf-8-*- 
-#Create By Aang Ardiansyah-XD
+# Decompile by Aang Ardiansyah-XD
+# with (uncompyle6) version : 3.7.4
+# Time Succes decompile : 2022-01-03 13:36:30.746764
 import os
 try:
     import requests
