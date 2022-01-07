@@ -63,21 +63,21 @@ def jalan(z):
 def logo():
     print("""\033[0;93m  _____               ____                _
 \033[0;93m |  ___|_ _  ___ ___ / ___|_ __ __ _  ___| | __
-\033[0;92m | |_ / _` |/ __/ _ \ |   | '__/ _` |/ __| |/ /®
+\033[0;92m | |_ / _` |/ __/ _ \ |   | '__/ _` |/ __| |/ /
 \033[0;96m |  _| (_| | (_|  __/ |___| | | (_| | (__|   <
 \033[0;97m |_|  \__,_|\___\___|\____|_|  \__,_|\___|_|\_\
 
 \033[0;97m #---------------------------------------------#
-\033[0;93m > Autor    : \033[0;97mAang Ardiansyah-XD
-\033[0;93m > Facebook : \033[0;97mFacebook.com/MyAangXD
-\033[0;93m > Github   : \033[0;97mGithub.com/AngCyber
+\033[0;93m # Autor    : \033[0;97mAang Ardiansyah-XD
+\033[0;93m # Facebook : \033[0;97mFacebook.com/MyAangXD
+\033[0;93m # Github   : \033[0;97mGithub.com/AngCyber
 \033[0;97m #---------------------------------------------#
 """)
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print('\n\n %s[%s#%s] crack selesai...\n'%(N,K,N))
-        print(' [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N))
-        print(' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N))
+        print('\n\n %s[%s✓%s] Crack Selesai Sayang...'%(N,H,N))
+        print(' [%s•%s] Total Akun OK : %s%s%s'%(O,N,H,str(len(ok)),N))
+        print(' [%s•%s] Total Akun CP : %s%s%s'%(O,N,K,str(len(cp)),N))
         cek_cp = input(f"\n [{O}?{N}] munculkan opsi checkpoint detedtor [Y/t]: ")
         if cek_cp =="":
             print(f"\n [{M}!{N}] jangan kosong");hasil(ok,cp)
@@ -86,7 +86,7 @@ def hasil(ok,cp):
             ww=input(f"\n [{O}?{N}] ubah password ketika tap yes [Y/t]: ")
             if ww in ("Y","y","ya"):
                 ubahP.append("y")
-                print(f" [{H}•{N}] contoh password : {H}yayanxd{N}")
+                print(f" [{H}•{N}] contoh password : {H}Aangxd{N}")
                 pwBar=input(f"\n [{H}+{N}] masukan password baru : ")
                 print("\n")
                 if len(pwBar) <= 5:
