@@ -61,17 +61,17 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.03)
 def logo():
-    print("""\033[0;93m _____               ____                _
-\033[0;93m|  ___|_ _  ___ ___ / ___|_ __ __ _  ___| | __
-\033[0;92m| |_ / _` |/ __/ _ \ |   | '__/ _` |/ __| |/ /®
-\033[0;96m|  _| (_| | (_|  __/ |___| | | (_| | (__|   <
-\033[0;97m|_|  \__,_|\___\___|\____|_|  \__,_|\___|_|\_\
+    print("""\033[0;93m  _____               ____                _
+\033[0;93m |  ___|_ _  ___ ___ / ___|_ __ __ _  ___| | __
+\033[0;92m | |_ / _` |/ __/ _ \ |   | '__/ _` |/ __| |/ /®
+\033[0;96m |  _| (_| | (_|  __/ |___| | | (_| | (__|   <
+\033[0;97m |_|  \__,_|\___\___|\____|_|  \__,_|\___|_|\_\
 
-\033[0;97m#---------------------------------------------#
-\033[0;93m> Autor    : \033[0;97mAang Ardiansyah-XD
-\033[0;93m> Facebook : \033[0;97mFacebook.com/MyAangXD
-\033[0;93m> Github   : \033[0;97mGithub.com/AngCyber
-\033[0;97m#---------------------------------------------#
+\033[0;97m #----------------------------------------------#
+\033[0;93m > Autor    : \033[0;97mAang Ardiansyah-XD
+\033[0;93m > Facebook : \033[0;97mFacebook.com/MyAangXD
+\033[0;93m > Github   : \033[0;97mGithub.com/AngCyber
+\033[0;97m #----------------------------------------------#
 """)
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
@@ -153,7 +153,7 @@ def moch_yayan():
     _mmk_ = open('.cokie.txt').read()
     kueh  = {"cookie":_mmk_}
     #print("\n [•] Your IP   : %s"%(IP));time.sleep(0.03)
-    print("\n [ Selamat Datang %s%s%s Ngentod ]\n"%(H,nama,N));time.sleep(0.03)
+    print(" [ Selamat Datang %s%s%s Ngentod ]\n"%(H,nama,N));time.sleep(0.03)
     print(' \x1b[0;97m[%s01%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mAnggota Grup'%(H,N));time.sleep(0.03)
     print(' \033[0;97m[%s02%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mTeman Publik'%(H,N));time.sleep(0.03)
     print(' \033[0;97m[%s03%s] \033[0;96mCrack \033[0;97mID Dari \033[0;93mTotal Followers'%(H,N));time.sleep(0.03)
