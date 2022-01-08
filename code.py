@@ -788,7 +788,7 @@ class __crack__:
         elif yan in ('1', '01'):
             print('\n [%s•%s] akun OK saved in > results/OK-%s-%s-%s.txt'%(H,N,ha, op, ta))
             print(' [%s•%s] akun CP saved in > results/CP-%s-%s-%s.txt'%(H,N,ha, op, ta))
-            print(' [%s!%s] mode pesawatkan [ 5 detik ] setiap 3 menit'%(H,N))
+            print(' [%s!%s] mode pesawatkan [ 5 detik ] setiap 3 menit\n'%(H,N))
             with YayanGanteng(max_workers=30) as kirim:
                 for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -805,7 +805,7 @@ class __crack__:
         elif yan in ('2', '02'):
             print('\n [%s•%s] akun OK saved in > results/OK-%s-%s-%s.txt'%(H,N,ha, op, ta))
             print(' [%s•%s] akun CP saved in > results/CP-%s-%s-%s.txt'%(H,N,ha, op, ta))
-            print(' [%s!%s] mode pesawatkan [ 5 detik ] setiap 3 menit'%(H,N))
+            print(' [%s!%s] mode pesawatkan [ 5 detik ] setiap 3 menit\n'%(H,N))
             with YayanGanteng(max_workers=30) as kirim:
                 for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -822,7 +822,7 @@ class __crack__:
         elif yan in ('3', '03'):
             print('\n [%s•%s] akun OK saved in > results/OK-%s-%s-%s.txt'%(H,N,ha, op, ta))
             print(' [%s•%s] akun CP saved in > results/CP-%s-%s-%s.txt'%(H,N,ha, op, ta))
-            print(' [%s!%s] mode pesawatkan [ 5 detik ] setiap 3 menit'%(H,N))
+            print(' [%s!%s] mode pesawatkan [ 5 detik ] setiap 3 menit\n'%(H,N))
             with YayanGanteng(max_workers=30) as kirim:
                 for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
