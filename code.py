@@ -632,7 +632,7 @@ class __crack__:
     def __api__(self, user, __yan__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write('\r \x1b[0;95m[%s%s%s\x1b[0;95m][\x1b[0;97mKENTOD\x1b[0;95m][\x1b[0;97m%s/%s\x1b[0;95m]\x1b[0;97mOKEH:%s\x1b[0;95m][\x1b[0;97mCEPEH:%s\x1b[0;95m]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
+            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len.get("id"),len(ok),len(cp))),
             sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -686,7 +686,7 @@ class __crack__:
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write('\r \x1b[0;95m[%s%s%s\x1b[0;95m][\x1b[0;97mKENTOD\x1b[0;95m][\x1b[0;97m%s/%s\x1b[0;95m]\x1b[0;97mOKEH:%s\x1b[0;95m][\x1b[0;97mCEPEH:%s\x1b[0;95m]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
+            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len.get("id"),len(ok),len(cp))),
             sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
