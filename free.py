@@ -1583,9 +1583,9 @@ def start_method():
     print('%s╠══[%s3%s] %sMetode Free Facebook'%(O,K,O,H))
 def start_methodezz():
     print('%s║'%(O))
-    print('%s╠══[%s1%s] %sCrack Cepat %s[%sPake Nos%s]'%(O,K,O,H,O,K,O))
-    print('%s╠══[%s2%s] %sCrack Lambat %s[%sKura-Kura%s]'%(O,K,O,H,O,K,O))
-    print('%s╠══[%s3%s] %sCrack Sangat Lambat %s[%Chat Dari Mantan%s]'%(O,K,O,H,O,K,O))
+    print('%s╠══[%s1%s] %sCrack Cepat %s[%s Pake Nos %s]'%(O,K,O,H,O,K,O))
+    print('%s╠══[%s2%s] %sCrack Lambat %s[%s Kura-Kura %s]'%(O,K,O,H,O,K,O))
+    print('%s╠══[%s3%s] %sCrack Sangat Lambat %s[%s Chat Dari Mantan %s]'%(O,K,O,H,O,K,O))
     print('%s╠══[%s4%s] %sCrack Dengan Password Gabungan'%(O,K,O,H))
 def started():
     print('%s║'%(O))
