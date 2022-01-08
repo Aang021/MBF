@@ -61,11 +61,11 @@ def clear():
     else:os.system("clear")
 def banner():
     print("""\x1b[0;96m ________  ______________
-\x1b[0;96m/__  __/ \/  / _  ) ____/|| BRUTE
-\x1b[0;96m  / / / /_/ / __ <  __/  || FORCE
-\x1b[0;96m /_/ /_/ /_/_____/_/\x1b[0;97mv1.3\x1b[0;96m|| FACEBOOK
+\x1b[0;96m/__  __/ \/  / _  ) ____/|| MULTI BRUTE
+\x1b[0;96m  / / / /_/ / __ <  __/  || FORCE FACEBOOK
+\x1b[0;96m /_/ /_/ /_/_____/_/\x1b[0;97mv1.3 \x1b[0;96m|| UPDATE 2022
 \x1b[0;96m╔════════════════════════════════════════════════╗
-\x1b[0;96m║         \x1b[0;97m•• \x1b[0;96mTEGAL \x1b[0;93mMULTI \x1b[0;93mBRUTE \x1b[0;96mFORCE \x1b[0;97m••          \x1b[0;96m║
+\x1b[0;96m║         \x1b[0;97m+++ \x1b[0;96mTEGAL \x1b[0;93mMULTI \x1b[0;93mBRUTE \x1b[0;96mFORCE \x1b[0;97m+++        \x1b[0;96m║
 \x1b[0;96m╚════════════════════════════════════════════════╝
 \x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Author   : Aang Ardiansyah-XD             \x1b[0;96m║
 \x1b[0;96m╠══[\x1b[0;93m•\x1b[0;96m]\x1b[0;97m Github   : Github.com/AngCyber            \x1b[0;96m║
@@ -1076,7 +1076,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.api(fl)
     def api_opsi(self,fl):
@@ -1113,7 +1113,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.api_opsi(fl)
     def mbasic(self,fl):
@@ -1150,7 +1150,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.mbasic(fl)
     def mbasic_opsi(self,fl):
@@ -1192,7 +1192,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.mbasic_opsi(fl)
     def free(self,fl):
@@ -1229,7 +1229,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.free(fl)
     def free_opsi(self,fl):
@@ -1271,7 +1271,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[++][%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(K,P,fl.get("id"),K,P,self.ko,len(self.fl),K,P,len(self.ada),K,P,len(self.cp),K,P), end='');sys.stdout.flush()
         except:
             self.free_opsi(fl)
 def target():
