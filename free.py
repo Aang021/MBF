@@ -555,18 +555,13 @@ def generate2(_laura_):
             if len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"1234")
-                _aangxd_.append(i+"234")
             else:
                 _aangxd_.append(i)
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"1234")
-                _aangxd_.append(i+"234")
     _aangxd_.append(_laura_.lower())
     _aangxd_.append("kontol")
     _aangxd_.append("sayang")
-    _aangxd_.append("bismillah")
     _aangxd_.append("katasandi")
     return _aangxd_
 def generate3(_laura_):
@@ -579,18 +574,13 @@ def generate3(_laura_):
             if len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"1234")
-                _aangxd_.append(i+"234")
             else:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"1234")
-                _aangxd_.append(i+"234")
     _aangxd_.append(_laura_.lower())
     _aangxd_.append("kontol")
     _aangxd_.append("sayang")
     _aangxd_.append("katasandi")
-    _aangxd_.append("bismillah")
     return _aangxd_
 def generate4(_laura_):
     _aangxd_=[]
@@ -602,13 +592,9 @@ def generate4(_laura_):
         elif len(i)==3 or len(i)==4 or len(i)==5:
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
-                _aangxd_.append(i+"1234")
-                _aangxd_.append(i+"234")
         else:
            _aangxd_.append(i+"123")
            _aangxd_.append(i+"12345")
-           _aangxd_.append(i+"1234")
-           _aangxd_.append(i+"234")
     if pp in ['',' ','  ']:pass
     else:
         for z in ps.split(','):
