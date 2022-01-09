@@ -251,7 +251,7 @@ def teman(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -283,7 +283,7 @@ def publik(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -312,7 +312,7 @@ def followers(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -341,7 +341,7 @@ def followers(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -370,7 +370,7 @@ def postingan(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -722,7 +722,7 @@ class __crack__:
 
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r \x1b[0;93m[%s%s%s][CRACK][%s/%s][OK:%s][CP:%s]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
