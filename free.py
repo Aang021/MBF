@@ -536,13 +536,10 @@ def generate1(_laura_):
                 _aangxd_.append(i+"12345")
                 _aangxd_.append(i+"234")
                 _aangxd_.append(i+"1234")
-                _aangxd_.append(i+"1122")
             elif len(i)>=6:
                 _aangxd_.append("kontol")
                 _aangxd_.append("sayang")
                 _aangxd_.append("katasandi")
-                _aangxd_.append("anjing")
-                _aangxd_.append("rahasia")
                 _aangxd_.append("akusayangkamu")
             else:
                 continue
@@ -1075,7 +1072,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(H,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.api(fl)
     def api_opsi(self,fl):
@@ -1112,7 +1109,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(H,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.api_opsi(fl)
     def mbasic(self,fl):
@@ -1149,7 +1146,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(H,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.mbasic(fl)
     def mbasic_opsi(self,fl):
@@ -1191,7 +1188,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(H,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.mbasic_opsi(fl)
     def free(self,fl):
@@ -1228,7 +1225,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(H,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.free(fl)
     def free_opsi(self,fl):
@@ -1270,7 +1267,7 @@ class crack:
                 else:continue
                     
             self.ko+=1
-            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(H,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
+            print("\r%s[%s%s%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(O,P,fl.get("id"),O,P,self.ko,len(self.fl),O,P,len(self.ada),O,P,len(self.cp),O,P), end='');sys.stdout.flush()
         except:
             self.free_opsi(fl)
 def target():
