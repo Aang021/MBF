@@ -535,10 +535,15 @@ def generate1(_laura_):
                 _aangxd_.append(i+"123")
                 _aangxd_.append(i+"12345")
                 _aangxd_.append(i+"234")
+                _aangxd_.append(i+"1234")
+                _aangxd_.append(i+"1122")
             elif len(i)>=6:
                 _aangxd_.append("kontol")
                 _aangxd_.append("sayang")
                 _aangxd_.append("katasandi")
+                _aangxd_.append("anjing")
+                _aangxd_.append("rahasia")
+                _aangxd_.append("akusayangkamu")
             else:
                 continue
     _aangxd_.append(_laura_.lower())
