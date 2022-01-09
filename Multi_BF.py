@@ -722,7 +722,7 @@ class __crack__:
 
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r \x1b[0;93m[%s%s%s][CRACK][%s/%s][OK:%s][CP:%s]'%(O,i,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -773,7 +773,7 @@ class __crack__:
     
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -824,7 +824,7 @@ class __crack__:
     
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -875,7 +875,7 @@ class __crack__:
     
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -926,7 +926,7 @@ class __crack__:
         
     def __mfb__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[>_%sCrack][%s/%s][OK:%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
