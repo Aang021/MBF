@@ -117,7 +117,7 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '%s║%s '%(O,N)
-        print '%s╠══[%s Selamat Datang %s%s%s Ngentod \033[0;96m]'%(O,N,K,nama,N);time.sleep(2)
+        print '%s╠══[%s Selamat Datang %s%s%s Ngentod \033[0;96m]'%(O,N,H,nama,N);time.sleep(2)
         print '%s╠══[%s Script Ini Baru Di Update Pada 2022 \033[0;96m]'%(O,N);time.sleep(2)
         print '%s╠══[%s Untuk Info Lengkap Cek Di Informasi Script \033[0;96m]'%(O,N);time.sleep(2)
         print '%s╠══[%s Sebelum Menggunakan Script Ini Mohon Untuk \033[0;96m]'%(O,N);time.sleep(2)
@@ -251,7 +251,7 @@ def teman(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Mohon Tunggu Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -283,7 +283,7 @@ def publik(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Mohon Tunggu Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -312,7 +312,7 @@ def followers(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Mohon Tunggu Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -341,7 +341,7 @@ def followers(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Mohon Tunggu Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -370,7 +370,7 @@ def postingan(kontol):
             id.append(a['id'] + '<=>' + a['name'])
             ys.write(a['id'] + '<=>' + a['name'] + '\n')
             w = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m', '\x1b[0m'])
-            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m] [\033[0;91m%s\033[0m] Mohon Tunggu Sedang Dump Id...'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
+            sys.stdout.write('\r\033[0m - ' + w + '%s%s                                        \r\n\n[\033[0;96m%s\033[0m][\033[0;91m%s\033[0m] Tunggu, Sedang Dump Id'%(a['name'],N,datetime.now().strftime('%H:%M:%S'), len(id)
             )); sys.stdout.flush()
             time.sleep(0.0050)
 
@@ -571,11 +571,11 @@ def seting_yntkts():
 # User Agent baru
 def yo_ndak_tau_ko_tanya_saia():
     os.system('rm -rf YNTKTS.txt')
-    print '\n%s╔══[%s•%s] Note: Cari User Agent Di Google Chrome'%(N,O,N)
-    print '╠══[%s•%s] Ketik User Agent Atau My User Agent...'%(M,N)
-    anjng = raw_input('╚══[%s?%s] Masukan User Agent :%s '%(O,N,H))
+    print '\n%s[%s•%s] Note: Cari User Agent Di Google Chrome'%(N,O,N)
+    print '[%s•%s] Ketik User Agent Atau My User Agent...'%(M,N)
+    anjng = raw_input('[%s?%s] Masukan User Agent :%s '%(O,N,H))
     if anjng == '':
-        print '\n%s╚══[%s×%s] Gak Boleh Kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
+        print '\n%s[%s×%s] Gak Boleh Kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     try:
         open('YNTKTS.txt', 'w').write(anjng);time.sleep(2)
         jalan('\n%s[%s✓%s] Berhasil Mengganti User Agent'%(N,H,N))
@@ -722,7 +722,7 @@ class __crack__:
 
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -773,7 +773,7 @@ class __crack__:
     
     def __api__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -824,7 +824,7 @@ class __crack__:
     
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -875,7 +875,7 @@ class __crack__:
     
     def __mbasic__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
@@ -926,7 +926,7 @@ class __crack__:
         
     def __mfb__(self, user, __yan__):
         global ok,cp,loop
-        sys.stdout.write('\r%s[++][%sCrack][%s/%s][OK:%s%s][CP:%s] '%(O,N,loop,len(self.id),len(ok),len(cp))),
+        sys.stdout.write('\r%s[%sCrack][%s/%s][OK:%s%s][CP:%s] '%(P,N,loop,len(self.id),len(ok),len(cp))),
         sys.stdout.flush()
         for pw in __yan__:
             pw = pw.lower()
